@@ -2,20 +2,20 @@
   "name": "goit-js-hw-08",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://joepherdegz.github.io/goit-js-hw-08",
+  "homepage": "https://joepherdegz.github.io/goit-js-hw-08-1a",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08-1a/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joepherdegz/goit-js-hw-08.git"
+    "url": "git+https://github.com/joepherdegz/goit-js-hw-08-1a.git"
   },
   "keywords": [],
   "author": "Joepher De Guzman <joepherdegz@yahoo.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joepherdegz/goit-js-hw-08/issues"
+    "url": "https://github.com/joepherdegz/goit-js-hw-08-1a/issues"
   },
   "dependencies": {
     "@vimeo/player": "^2.21.0",
