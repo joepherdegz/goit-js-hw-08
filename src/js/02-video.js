@@ -2,7 +2,7 @@ import Player from '@vimeo/player';
 import throttle from 'lodash.throttle';
 
 const iframe = document.querySelector('iframe#vimeo-player');
-
+const player = new Player(iframe);
 
 const timeFunction = (data) => {
     let playerSecond = data.seconds
