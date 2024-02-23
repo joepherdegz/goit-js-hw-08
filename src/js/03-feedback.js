@@ -24,7 +24,7 @@ function onPageReload() {
     const savedMessage = JSON.parse(localStorage.getItem(STORAGE_KEY));
     if (savedMessage) {
         emailEl.value = savedMessage.email;
-        message.value = savedMessage.message;
+        messageEl.value = savedMessage.message;
     }
 }
 
@@ -32,7 +32,7 @@ form.addEventListener('submit', onFormSubmit);
 
 function onFormSubmit(e) {
     e.preventDefault();
-    const email = email.value;
+    const email = emailEl.value;
     const message = messageEl.value;
 
     if (email == '' || message == '') {
